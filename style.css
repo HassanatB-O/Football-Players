@@ -1,0 +1,73 @@
+body, html
+{
+    background-color: violet;
+    height: 100%;
+}
+.container
+{
+    max-width: 960px;
+    margin: 0 auto;
+}
+section.section:last-child
+{
+    margin-bottom: 0;
+}
+section.section h2
+{
+    margin-bottom: 40px;
+    font-family: cursive;
+    font-size: 30px;
+}
+section.section p
+{
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 300;
+}
+section.section p:last-child
+{
+    margin-bottom: 0;
+}
+section.section.content
+{
+    padding: 40px 0;
+}
+section.parallax
+{
+    height: 600px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;   
+}
+section.parallax h1
+{
+    color: yellowgreen;
+    font-size: 28px;
+    line-height: 500px;
+    font-weight: bold;
+    text-align: center;
+}
+section.Parent1
+{
+    background-image: url("H2.JPG");
+}
+section.Parent2
+{
+    background-image: url("B.JPG");
+}
+section.Parent3
+{
+    background-image: url("HB.JPG");
+}
+@media only screen and (max-device-width: 1366px) 
+{       
+    .parallax{
+        background-attachment: scroll;
+    }
+}
+footer
+{
+    text-align: center;
+
+}
